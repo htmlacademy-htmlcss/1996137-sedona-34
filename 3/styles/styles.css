@@ -1,0 +1,247 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  background-color: #f2f2f2;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  background-color: #fff;
+
+}
+
+/* Навигация */
+
+.navigation-link {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 4px;
+  border: 0;
+}
+
+.navigation-button {
+  background-color: #756157;
+}
+
+/* Главная страница */
+
+.greeting {
+  background:#a5c7e2 url(../images/background/hero-background.jpg) no-repeat 50% 0/100% auto;
+  text-align: center;
+}
+
+title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.description-title {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.advantages-list {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #333;
+}
+
+.advantages-block,
+.advantages-subitem:not(:nth-child(2)) {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-blue {
+  background-color: #82b3d3;
+  color: #fff;
+}
+
+.advantages-lightblue {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-title, .advantages-subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.advantages-blue .advantages-description {
+  color: #fff;
+}
+
+.search-hotel {
+  text-align: center;
+}
+
+.search-button {
+  background-color: #756157;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.subscribe {
+  text-align: center;
+  background:#70a1ac url("../images/background/subscribe-background.jpg") no-repeat 50% 0/cover;
+}
+
+.subscribe-title {
+  color: #fff;
+}
+
+.subscribe-description {
+  color: #fff;
+}
+
+.subscribe-email {
+  background-color: #f2f2f2;
+}
+
+.subscribe-button {
+  background-color: #82B3D3;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+/* Подвал */
+
+
+.footer-contacts-phone {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+/* Каталог */
+
+.filter-conteiner {
+  background: #81B3D3 url('../images/background/catalog-background.jpg') no-repeat 50% 0/cover;
+}
+
+.inner-header {
+  color: #fff;
+}
+
+.inner-header-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.breadcrumbs {
+  color: #fff;
+}
+
+.breadcrumbs-link {
+  color: inherit;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.catalog-filters-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #fff;
+}
+
+.control {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #fff;
+}
+
+.apply-button {
+  font-size: 20px;
+  line-height: 36px;
+  background-color: #82B3D3;
+}
+
+.reset-button {
+  background-color: rgba(131, 179, 211, 0);
+  text-transform: none;
+  font-weight: 400;
+}
+
+.detail-button {
+  background-color: #756157;
+}
+
+.favorite-button {
+  background-color: #82B3D3;
+}
+
+.hotel-card-rating {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  background-color: #f2f2f2;
+  border: 0;
+  border-radius: 4px;
+}
+
+.pagination-link {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #82b3d3;
+  border-radius: 4px;
+}
+
+.catalog-subscribe-title {
+  color: #000;
+}
