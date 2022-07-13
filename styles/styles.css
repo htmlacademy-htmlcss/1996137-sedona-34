@@ -549,7 +549,7 @@ img {
 
 .filter-conteiner {
   background: #81B3D3 url('../images/background/catalog-background.jpg') no-repeat 50% 0/cover;
-  padding: 35px 70px 70px;
+  padding: 35px 70px 68px;
 }
 
 .inner-header {
@@ -874,7 +874,7 @@ img {
 }
 
 .catalog-display {
-  padding-top: 50px;
+  padding-top: 55px;
 }
 
 .display-group {
@@ -895,6 +895,7 @@ img {
   height: 50px;
   border: 2px solid #e5e5e5;
   border-radius: 4px;
+  font-family: inherit;
   font-size: 18px;
   line-height: 21px;
   color: #333333;
@@ -1003,7 +1004,7 @@ img {
 .hotel-info-container {
   display: grid;
   grid-template-columns: repeat(2, 140px);
-  gap: 16px 16px;
+  gap: 16px 20px;
 }
 
 .hotel-card-discription {
@@ -1148,7 +1149,7 @@ img {
 
 .select-number-cards {
   width: 160px;
-  margin-left: 51px;
+  margin-left: 48px;
 }
 
 .catalog-subscribe {
@@ -1158,6 +1159,7 @@ img {
 
 .catalog-subscribe-title {
   color: #000;
+  margin-bottom: 29px;
 }
 
 .catalog-subscribe-description {
